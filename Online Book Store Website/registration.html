@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Online Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registration</h2>
+    <form name="registrationForm" onsubmit="return validateForm()">
+        Name: <input type="text" name="name"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        Email: <input type="text" name="email"><br><br>
+        Phone Number: <input type="text" name="phone"><br><br>
+        Sex: <input type="radio" name="sex" value="male">Male
+        <input type="radio" name="sex" value="female">Female<br><br>
+        Date of Birth: <input type="date" name="dob"><br><br>
+        Languages Known:
+        <input type="checkbox" name="languages" value="english">English
+        <input type="checkbox" name="languages" value="hindi">hindi
+        <input type="checkbox" name="languages" value="sanskrit">Sanskrit
+        <input type="checkbox" name="languages" value="french">French
+        <input type="checkbox" name="languages" value="urdu">Urdu
+        <input type="checkbox" name="languages" value="german">German
+        <input type="checkbox" name="languages" value="spanish">Spanish
+        <input type="checkbox" name="languages" value="russian">Russian
+        <input type="checkbox" name="languages" value="tamil">Tamil
+        <input type="checkbox" name="languages" value="telugu">Telugu
+        <input type="checkbox" name="languages" value="marathi">Marathi
+        <input type="checkbox" name="languages" value="gujarati">Gujarati
+        <input type="checkbox" name="languages" value="bengali">Bengali
+        <input type="checkbox" name="languages" value="arabic">Arabic
+        <br><br>
+        Address: <textarea name="address" id="" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
